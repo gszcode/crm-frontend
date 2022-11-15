@@ -43,7 +43,7 @@ export const Entry = () => {
 
   return (
     <div className="entry-page bg-info">
-      <Jumbotron className="form-box bg-light py-5 px-4 rounded">
+      <Jumbotron className="form-box bg-light p-5 rounded">
         {formLoad === 'login' ? (
           <LoginForm
             handleOnChange={handleOnChange}
